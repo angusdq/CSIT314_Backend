@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Customer {
+    //Add customer payment details here
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
